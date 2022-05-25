@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
   },
   toptext: {
     marginTop: scale(10),
-    fontSize: scale(60),
+    fontSize: scale(50),
     color: '#fe5858',
     fontWeight: 'bold',
   },
   toptext1: {
-    fontSize: scale(30),
+    fontSize: scale(25),
     color: 'black',
   },
   bottext1: {

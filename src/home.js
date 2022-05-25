@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   FlatList,
   Image,
+  SafeAreaView,
 } from 'react-native';
 import styles from './home.style';
 import axios from 'axios';
@@ -146,7 +147,7 @@ const Home = () => {
     ) : null;
   };
   return (
-    <View>
+    <SafeAreaView>
       <View style={styles.topcontainer}>
         <Text style={styles.toptext}>
           {total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
@@ -206,7 +207,7 @@ const Home = () => {
           extraData={Countryid}
         />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 export default Home;
